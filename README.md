@@ -28,3 +28,50 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+## 🎯 Usage
+To train and evaluate the models, follow these steps:
+
+### 🔹 Train a Drug-Target Interaction Model
+```bash
+python train_model.py --data data/dti_dataset.csv --model random_forest
+
+### 🔹 To Predict Molecular Properties
+```bash
+python predict_properties.py --molecule data/molecule.sdf
+
+### 🔹 To Perform Virtual Screening
+```bash
+python virtual_screening.py --library data/compound_library.csv
+
+
+---
+
+### 🧩 Dataset Preparation  
+
+```markdown
+## 🧩 Dataset Preparation
+1. 📥 **Download** datasets from **ChEMBL, DrugBank, or PubChem**.
+2. 🏗 **Preprocess** chemical structures using **RDKit**.
+3. 🔬 **Convert** molecular fingerprints into feature vectors.
+4. 📊 **Normalize** and clean data for machine learning models.
+
+## 🏋️‍♂️ Model Training & Evaluation
+- Train different models: **Random Forest (RF), SVM, XGBoost, Deep Learning**.
+- Evaluate performance using **cross-validation**.
+- Optimize using **hyperparameter tuning** (Grid Search, Bayesian Optimization).
+- Save trained models for inference.
+
+## 📈 Results & Performance
+- 📊 **Performance Metrics**: Accuracy, ROC-AUC, F1-score, RMSE.
+- 🖼 **Visualizations**:
+  - Feature importance plots.
+  - Molecular similarity heatmaps.
+  - ROC-AUC curves.
+
+## 💡 Future Enhancements
+- 🔥 Implement **Graph Neural Networks (GNNs)** for molecular representations.
+- 🏆 Explore **Reinforcement Learning** for drug generation.
+- ⚙️ Integrate **AutoML** for model selection.
+- 🏭 Develop a **web interface** for easy access.
+
