@@ -1,7 +1,7 @@
 # 🧪 Computational Drug Discovery (CDD)
 
 ## 🔬 Overview
-Computational Drug Discovery (CDD) leverages machine learning, cheminformatics, and bioinformatics to identify potential drug candidates efficiently. This project, inspired by **Data Professor**, builds predictive models for drug-target interactions, molecular property prediction, and virtual screening to accelerate drug discovery.
+Computational Drug Discovery (CDD) leverages machine learning, cheminformatics, and bioinformatics to identify potential drug candidates efficiently. This project, builds predictive models for drug-target interactions, molecular property prediction, and virtual screening to accelerate drug discovery.
 
 ## 🚀 Features
 - 🏺 **Molecular Property Prediction**: Predict chemical properties like solubility, lipophilicity, and bioavailability.
@@ -17,7 +17,7 @@ Computational Drug Discovery (CDD) leverages machine learning, cheminformatics, 
 - **Visualization**: 📊 Matplotlib, Seaborn
 
 ## 📥 Installation
-```bash
+
 # Clone the repository
 git clone https://github.com/poisonkissedsk/CDD_AIDM.git
 cd CDD_AIDM
@@ -29,28 +29,27 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
+
+
 ## 🎯 Usage
 To train and evaluate the models, follow these steps:
 
 ### 🔹 Train a Drug-Target Interaction Model
-```bash
+
 python train_model.py --data data/dti_dataset.csv --model random_forest
 
 ### 🔹 To Predict Molecular Properties
-```bash
+
 python predict_properties.py --molecule data/molecule.sdf
 
 ### 🔹 To Perform Virtual Screening
-```bash
+
 python virtual_screening.py --library data/compound_library.csv
 
 
 ---
 
-### 🧩 Dataset Preparation  
-
-```markdown
-## 🧩 Dataset Preparation
+### 🧩 Dataset Preparation
 1. 📥 **Download** datasets from **ChEMBL, DrugBank, or PubChem**.
 2. 🏗 **Preprocess** chemical structures using **RDKit**.
 3. 🔬 **Convert** molecular fingerprints into feature vectors.
