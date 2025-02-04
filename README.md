@@ -19,8 +19,7 @@ Computational Drug Discovery (CDD) leverages machine learning, cheminformatics, 
 ## 📥 Installation
 
 # Clone the repository
-git clone https://github.com/poisonkissedsk/CDD_AIDM.git
-cd CDD_AIDM
+git clone gh repo clone poisonkissedsk/Computational-Drug-Discovery
 
 # Create a virtual environment
 python -m venv venv
