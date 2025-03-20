@@ -1,4 +1,4 @@
-# 🧪 Computational Drug Discovery (CDD)
+# 🧪 Research in Computational Onco-Pharmacogenomics & Computational Drug Discovery (CDD)
 
 ## 🔬 Overview
 Computational Drug Discovery (CDD) leverages machine learning, cheminformatics, and bioinformatics to identify potential drug candidates efficiently. This project, builds predictive models for drug-target interactions, molecular property prediction, and virtual screening to accelerate drug discovery.
@@ -13,7 +13,7 @@ Computational Drug Discovery (CDD) leverages machine learning, cheminformatics, 
 ## 🛠 Tech Stack
 - **Programming Language**: 🐍 Python
 - **Libraries & Frameworks**: RDKit, DeepChem, PyTorch/TensorFlow, Scikit-learn, Pandas, NumPy
-- **Data Sources**: 📚 ChEMBL, PubChem, DrugBank
+- **Data Sources**: 📚 ChEMBL, PubChem
 - **Visualization**: 📊 Matplotlib, Seaborn
 
 ## 📥 Installation
@@ -60,16 +60,8 @@ python virtual_screening.py --library data/compound_library.csv
 - Optimize using **hyperparameter tuning** (Grid Search, Bayesian Optimization).
 - Save trained models for inference.
 
-## 📈 Results & Performance
-- 📊 **Performance Metrics**: Accuracy, ROC-AUC, F1-score, RMSE.
-- 🖼 **Visualizations**:
-  - Feature importance plots.
-  - Molecular similarity heatmaps.
-  - ROC-AUC curves.
-
 ## 💡 Future Enhancements
 - 🔥 Implement **Graph Neural Networks (GNNs)** for molecular representations.
 - 🏆 Explore **Reinforcement Learning** for drug generation.
 - ⚙️ Integrate **AutoML** for model selection.
 - 🏭 Develop a **web interface** for easy access.
-
